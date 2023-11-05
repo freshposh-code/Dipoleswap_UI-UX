@@ -1,0 +1,19 @@
+.swiper-container {
+  width: 100%;
+}
+
+.class-index {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.SwiperSlide {
+  width: 100%;
+  height: 100%;
+}
+
+
+

@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body{
+  background-color: #000;
+  filter: contrast(1.2);
+}
+
+.hero-bg {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.884), rgba(0, 13, 193, 0.427) , rgba(0, 0, 0, 0.928)), url('https://cdn.dribbble.com/userupload/2679027/file/original-c4b6277a5872c595be4f35d3ee1755d6.png?resize=1024x576&vertical=centerr');
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    filter: brightness(1.7); 
+}
+
+.blue-gradient {
+    background: #0926e8d7;
+    background: linear-gradient(-90deg, #2875e8c1 0%, rgba(0, 2, 145, 0) 100%);
+    background: -webkit-linear-gradient(
+      -45deg,
+      #0b006b 0%,
+      rgba(8, 160, 242, 0.595) 100%
+    );
+  }  
+
+  .nav-gradient{
+   background: linear-gradient(190deg, rgba(3, 41, 106, 0.605) 0%, rgba(0, 4, 255, 0.93) 100%);
+  }
+
+  .nav-hover:hover{
+    border-bottom: 3px solid rgb(0, 0, 163);
+  }
+
+  .nav-color {
+    background-color: rgba(0, 0, 0, 0.747);
+  }
+
+  .sidebar {
+    -webkit-animation: slide-top 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+    animation: slide-top 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  }
+
+  .button {
+    background-color: #000;
+    border: 2px solid rgba(5, 5, 113, 0.411);
+    box-shadow:  0 0 12px rgb(9, 33, 247);
+  }
+
+  .button:hover {
+    transform: scale(1.04);
+    box-shadow:  0 0 16px rgb(9, 33, 247);
+  }
+  
+  .button2 {
+    border: 2px solid rgba(5, 5, 113, 0.411);
+    box-shadow:  0 0 12px rgba(26, 45, 217, 0.761);
+  }
+
+  .button2:hover {
+    transform: scale(1.04);
+    box-shadow:  0 0 6px rgba(26, 45, 217, 0.761);
+  }
+  
+  @-webkit-keyframes slide-top {
+    0% {
+      -webkit-transform: translateY(100px);
+      transform: translateY(100px);
+    }
+    100% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes slide-top {
+    0% {
+      -webkit-transform: translateY(100px);
+      transform: translateY(100px);
+    }
+    100% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+  }
+
+  .text-gradient {
+    background: radial-gradient(
+      64.18% 64.18% at 71.16% 35.69%,
+      #0c20ffc3 0.89%,
+      #155bffe4 17.23%,
+      #4238ffe3 42.04%,
+      #3476f1f4 55.12%,
+      #2172ffe5 71.54%,
+      #0088ff 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+  }
+  
+    /* Blur-Effect */
+    .tilt-effect-theme {
+      background: linear-gradient(169deg, rgba(41, 58, 213, 0.926) 0, rgba(0, 0, 0, 0) 85%);
+      filter: contrast(3.7);
+      box-shadow: 0px 0px 1px rgba(255, 254, 254, 0.43);
+      filter: saturate(1.8);
+    }
+
+    .explore-bg {
+      background-image: linear-gradient( rgb(0, 0, 0), rgba(0, 13, 193, 0.274), rgba(0, 0, 0, 0.966)), url('https://cdn.dribbble.com/userupload/2679026/file/original-29fb28909353db00d140114236af9cf9.png?resize=1024x576&vertical=centerr');
+      background-repeat: none;
+      background-position: right;
+      background-size: cover;
+      object-fit: cover;
+      filter: brightness(1.6);
+    }
+
+    .token-bg {
+      border: 1px solid rgba(255, 255, 255, 0.478);
+      background-color: rgba(0, 0, 0, 0.312);
+    }
