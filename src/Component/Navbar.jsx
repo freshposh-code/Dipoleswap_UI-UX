@@ -57,7 +57,7 @@ const Navbar = () => {
 
        <ul className={`${open ? "flex" : "hidden"} md:hidden absolute top-[4rem] right-0 flex flex-col gap-3 sidebar nav-gradient p-5 m-3 rounded-br-xl rounded-tl-xl`}>
         {navbar.map((item)=> (
-         <li className={`text-slate-200 font-normal`} onClick={() => setOpen(!open)}>
+         <li className={`text-slate-200 font-normal xm:text-[1rem] text-[10px]`} onClick={() => setOpen(!open)}>
           <a href={item.id}>
             {item.name}
           </a>
