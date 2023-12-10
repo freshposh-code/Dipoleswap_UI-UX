@@ -20,7 +20,7 @@ const Footer = () => {
       </div>
       <div className='flex items-center flex-wrap justify-between'>
       {dipolFooter.map((item) => (
-        <div className='sm:ml-4 xm:ml-1 ml-4'>
+        <div key={item} className='sm:ml-4 xm:ml-1 ml-4'>
           <p className={`text-dimWhite cursor-pointer`}>
             {item.name}
           </p>
