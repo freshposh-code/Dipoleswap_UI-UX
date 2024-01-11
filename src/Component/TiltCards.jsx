@@ -12,7 +12,7 @@ const TiltCard = ({TiltImg, TiltText, TiltTotal , index}) => {
      <Tilt>
         <motion.div initial='hidden'
         whileInView='show' viewport={{once: false, amount: 0.25}}
-        variants={fadeIn("up", "spring", index * 0.55 , 0.95)} options={{
+        variants={fadeIn("up", "spring", index * 0.15 , 0.95)} options={{
       max: 45,
       scale: 1,
       speed: 450}} className="tilt-effect-theme p-6 py-16" >
